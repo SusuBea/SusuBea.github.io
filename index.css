@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=The+Nautigal&display=swap');
 
 body {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(212, 222, 233);
 }
+
 
 button {
     border-radius: 4px;
     background-color: lightgrey;
     font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin: 10px;
+}
+
+
+@media screen and (min-width: 390px) {
+    display: inline;
 }
